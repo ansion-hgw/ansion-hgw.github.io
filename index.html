@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>何国文 - 中山大学大气科学学院 | 大气化学 · 机器学习</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">何国文</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#about" class="nav-link">个人简介</a></li>
+                <li><a href="#education" class="nav-link">教育经历</a></li>
+                <li><a href="#research" class="nav-link">研究方向</a></li>
+                <li><a href="#projects" class="nav-link">主持项目</a></li>
+                <li><a href="#publications" class="nav-link">学术成果</a></li>
+                <li><a href="#conferences" class="nav-link">学术交流</a></li>
+                <li><a href="#contact" class="nav-link">联系方式</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页/横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-photo">
+                <img src="images/photo.jpg" alt="何国文" class="profile-photo">
+            </div>
+            <div class="hero-info">
+                <h1>何国文</h1>
+                <h2>Guowen He</h2>
+                <p class="hero-title">博士后</p>
+                <p class="hero-affiliation">中山大学 · 大气科学学院</p>
+                <p class="hero-subtitle">对流层臭氧（观测与数值模拟）· 大气化学传输模型 · 机器学习在大气环境中的应用</p>
+                <div class="hero-links">
+                    <a href="mailto:hegw8@mail.sysu.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.researchgate.net/profile/Guowen-He" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                    <a href="#publications" title="学术成果"><i class="fas fa-book"></i></a>
+                    <a href="#research" title="研究方向"><i class="fas fa-flask"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 个人简介 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">个人简介</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        何国文，中山大学大气科学学院博士后。2025年12月于中山大学获博士学位（资源与环境专业），
+                        2021年6月于暨南大学获硕士学位（环境科学专业），2018年6月于肇庆学院获学士学位（环境工程专业）。
+                    </p>
+                    <p>
+                        自攻读硕士学位起一直致力于<strong>对流层臭氧的观测和数值模拟研究</strong>，在相关领域有丰富的研究经验。
+                        研究工作涵盖我国东部对流层臭氧观测特征、影响因素模拟、天气型影响、气溶胶作用机理以及浓度趋势归因等方面。
+                        熟练掌握 <strong>GEOS-Chem</strong> 和 <strong>WRF-CMAQ</strong> 等大气化学传输模型，并将机器学习方法应用于大气科学研究。
+                    </p>
+                    <p>
+                        目前已在 <em>Atmospheric Chemistry and Physics</em>、<em>Science of The Total Environment</em>、
+                        <em>中国环境科学</em> 等国内外高水平期刊上以<strong>第一作者发表论文5篇</strong>，合作论文24篇。
+                        其中 SCI 第一作者论文 WOS 累计引用 78 次，中文第一作者论文 CNKI 累计引用 55 次。
+                    </p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <span class="detail-label">姓名</span>
+                            <span class="detail-value">何国文 (Guowen He)</span>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <span class="detail-label">职称</span>
+                            <span class="detail-value">博士后</span>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <span class="detail-label">单位</span>
+                            <span class="detail-value">中山大学大气科学学院</span>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span class="detail-label">地址</span>
+                            <span class="detail-value">广东省珠海市唐家湾<br>中山大学珠海校区海琴二号</span>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span class="detail-label">邮箱</span>
+                            <span class="detail-value"><a href="mailto:hegw8@mail.sysu.edu.cn">hegw8@mail.sysu.edu.cn</a></span>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <span class="detail-label">手机</span>
+                            <span class="detail-value">13535234576</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育经历 -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">教育与工作经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026.03 - 至今</div>
+                        <h3>博士后</h3>
+                        <p class="timeline-org">中山大学 大气科学学院</p>
+                        <p class="timeline-desc">合作导师：卢骁 教授</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021.09 - 2025.12</div>
+                        <h3>博士研究生</h3>
+                        <p class="timeline-org">中山大学 资源与环境</p>
+                        <p class="timeline-desc">研究方向：对流层臭氧的观测和模拟及来源解析</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018.09 - 2021.06</div>
+                        <h3>硕士研究生</h3>
+                        <p class="timeline-org">暨南大学 环境科学</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2014.09 - 2018.06</div>
+                        <h3>本科生</h3>
+                        <p class="timeline-org">肇庆学院 环境工程</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 研究方向 -->
+    <section id="research" class="section">
+        <div class="container">
+            <h2 class="section-title">研究方向</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="card-icon">
+                        <i class="fas fa-smog"></i>
+                    </div>
+                    <h3>对流层臭氧（观测与数值模拟）</h3>
+                    <p>
+                        利用激光雷达、高塔观测、飞机航测和探空观测等多源垂直观测数据，
+                        结合 GEOS-Chem、WRF-CMAQ 等大气化学传输模型，研究对流层臭氧的垂直分布特征、
+                        来源解析及影响机制。
+                    </p>
+                    <ul class="research-topics">
+                        <li>边界层臭氧垂直结构特征</li>
+                        <li>夜间臭氧演变规律及机制</li>
+                        <li>臭氧来源解析与归因</li>
+                        <li>跨区域输送对臭氧的影响</li>
+                        <li>气溶胶-臭氧非均相化学</li>
+                    </ul>
+                </div>
+                <div class="research-card">
+                    <div class="card-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>大气化学传输模型</h3>
+                    <p>
+                        熟练运用 GEOS-Chem 和 WRF-CMAQ 等大气化学传输模型，
+                        开发和改进模型中的参数化方案，提升模型对跨境输送烟羽的模拟能力，
+                        研究大气化学过程及其环境效应。
+                    </p>
+                    <ul class="research-topics">
+                        <li>GEOS-Chem 全球/区域嵌套模拟</li>
+                        <li>WRF-CMAQ 区域空气质量模拟</li>
+                        <li>生物质燃烧排放垂直分配方案改进</li>
+                        <li>对流层臭氧收支诊断分析</li>
+                        <li>多模型比较与评估</li>
+                    </ul>
+                </div>
+                <div class="research-card">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>机器学习在大气环境中的应用</h3>
+                    <p>
+                        将深度学习和传统机器学习方法应用于大气科学领域，融合多源观测资料和再分析资料，
+                        构建对流层臭氧浓度垂直分布的连续辅助数据集，实现对大气成分的智能分析和预测。
+                    </p>
+                    <ul class="research-topics">
+                        <li>对流层臭氧垂直分布智能预测</li>
+                        <li>多源观测数据融合与重建</li>
+                        <li>臭氧趋势归因的统计/机器学习方法</li>
+                        <li>TOAR-II 东亚对流层臭氧评估</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主持项目 -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">主持项目</h2>
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-badge">国家自然科学基金</span>
+                    <span class="project-year">2027 - 2029</span>
+                </div>
+                <h3 class="project-title">东南亚生物质燃烧垂直排放廓线约束及对华南对流层臭氧影响模拟研究</h3>
+                <p class="project-english">Constraining vertical emission profiles of biomass burning in Southeast Asia for modeling the impacts on tropospheric ozone over South China</p>
+                <div class="project-details">
+                    <div class="project-detail-item">
+                        <i class="fas fa-tag"></i>
+                        <span>资助类别：青年科学基金项目（C类）</span>
+                    </div>
+                    <div class="project-detail-item">
+                        <i class="fas fa-code"></i>
+                        <span>申请代码：D0506 大气化学</span>
+                    </div>
+                    <div class="project-detail-item">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>资助金额：30万元</span>
+                    </div>
+                    <div class="project-detail-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>研究期限：2027年1月 - 2029年12月</span>
+                    </div>
+                </div>
+                <div class="project-abstract">
+                    <h4>项目摘要</h4>
+                    <p>
+                        东南亚生物质燃烧是影响华南春季臭氧的重要外来源。排放注入高度影响臭氧生成的光化学环境及烟羽的水平输送效率，
+                        其不确定性是解析生物质燃烧对华南臭氧贡献及机制的关键且被忽略的瓶颈问题。
+                        本项目首先基于卫星、探空、飞机航测、地基激光雷达等多源大气成分垂直观测数据，约束和改进烟羽抬升模型，
+                        构建东南亚生物质燃烧本地化垂直分配方案；进一步结合观测与优化垂直排放廓线的大气传输模型，
+                        厘清东南亚生物质燃烧向华南输送的关键通道及大气动力-热力结构对烟羽形态和传输范围的影响；
+                        最终揭示生物质燃烧烟羽通过影响物种光解速率，差异化影响华南不同高度臭氧生成的机制，
+                        量化近年来东南亚生物质燃烧对华南边界层臭氧的贡献。
+                    </p>
+                </div>
+                <div class="project-keywords">
+                    <span class="keyword">空气质量模型</span>
+                    <span class="keyword">对流层臭氧</span>
+                    <span class="keyword">东南亚生物质燃烧</span>
+                    <span class="keyword">排放垂直廓线</span>
+                    <span class="keyword">GEOS-Chem</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 学术成果 -->
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section-title">学术成果</h2>
+            <div class="pub-stats">
+                <div class="pub-stat-item">
+                    <span class="pub-stat-number">5</span>
+                    <span class="pub-stat-label">第一作者论文</span>
+                </div>
+                <div class="pub-stat-item">
+                    <span class="pub-stat-number">24</span>
+                    <span class="pub-stat-label">合作论文</span>
+                </div>
+                <div class="pub-stat-item">
+                    <span class="pub-stat-number">78+</span>
+                    <span class="pub-stat-label">WOS引用(一作SCI)</span>
+                </div>
+                <div class="pub-stat-item">
+                    <span class="pub-stat-number">55+</span>
+                    <span class="pub-stat-label">CNKI引用(一作中文)</span>
+                </div>
+            </div>
+
+            <h3 class="pub-category">第一作者论文</h3>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <div class="pub-year">2023</div>
+                    <div class="pub-content">
+                        <h3>Nighttime ozone in the lower boundary layer: insights from 3-year tower-based measurements in South China and regional air quality modeling</h3>
+                        <p class="pub-authors"><strong>He, G.W.</strong>, He, C., Wang, H.F., Lu, X., Pei, C.L., Qiu, X.N., Liu, C.X., Wang, Y.M., Liu, N.X., Zhang, J.P., Lei, L., Liu, Y.M., Wang, H.C., Deng, T., Fan, Q., Fan, S.J.</p>
+                        <p class="pub-journal"><em>Atmospheric Chemistry and Physics</em>, 2023, 23(20): 13107-13124</p>
+                        <p class="pub-citation">WOS 引用: 30 次</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                        </div>
+                        <div class="pub-figure">
+                            <img src="images/2023-ACP代表性文章-概念模型图.png" alt="ACP 2023 概念模型图" class="pub-figure-img">
+                            <p class="pub-figure-caption">概念模型示意图</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-year">2021</div>
+                    <div class="pub-content">
+                        <h3>Characteristics of boundary layer ozone and its effect on surface ozone concentration in Shenzhen, China: A case study</h3>
+                        <p class="pub-authors"><strong>He, G.W.</strong>, Deng, T., Wu, D., Wu, C., Huang, X.F., Li, Z.N., Yin, C.Q., Zou, Y., Song, L., Ouyang, S.S., Tao, L.P., Zhang, X.</p>
+                        <p class="pub-journal"><em>Science of The Total Environment</em>, 2021, 791: 148044</p>
+                        <p class="pub-citation">WOS 引用: 48 次</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-year">2023</div>
+                    <div class="pub-content">
+                        <h3>环珠江口近地面夜间臭氧上升现象：基于垂直观测的两个个例研究</h3>
+                        <p class="pub-authors"><strong>何国文</strong>, 何成, 王海潮, 苗圣杰, 刘晨曦, 王一鸣, 刘南希, 曹天慧, 邓涛, 吴兑, 卢骁, 范绍佳</p>
+                        <p class="pub-journal"><em>环境科学学报</em>, 2023, 43(1): 87-96</p>
+                        <p class="pub-citation">CNKI 引用: 8 次</p>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-year">2022</div>
+                    <div class="pub-content">
+                        <h3>广州地区秋季PM<sub>2.5</sub>和臭氧复合污染的观测研究</h3>
+                        <p class="pub-authors"><strong>何国文</strong> 等</p>
+                        <p class="pub-journal"><em>环境科学学报</em>, 2022, 42(6): 250-259</p>
+                        <p class="pub-citation">CNKI 引用: 26 次</p>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-year">2020</div>
+                    <div class="pub-content">
+                        <h3>嘉兴夏季臭氧污染的近地层垂直变化特征</h3>
+                        <p class="pub-authors"><strong>何国文</strong>, 吴兑, 吴晟, 李梅, 邓涛, 吴伟超, 李莉, 程鹏, 袁婧, 张颖龙, 宋烺, 孙嘉胤, 陶丽萍, 梁粤, 谭健, 周振</p>
+                        <p class="pub-journal"><em>中国环境科学</em>, 2020, 40(10): 4265-4274</p>
+                        <p class="pub-citation">CNKI 引用: 21 次</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="pub-category">合作论文（部分）</h3>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3>Tropospheric ozone trends and attributions over East and Southeast Asia in 1995–2019: an integrated assessment using statistical methods, machine learning models, and multiple chemical transport models</h3>
+                        <p class="pub-authors">Lu, X., Liu, Y.M., Su, J.Y., ..., <strong>He, G.W.</strong>, ..., Nagashima, T.</p>
+                        <p class="pub-journal"><em>Atmospheric Chemistry and Physics</em>, 2025, 25(14): 7991-8028</p>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3>Impact of the actinic radiative effect of scattering aerosols on ozone vertical distribution in the Pearl River Delta, China</h3>
+                        <p class="pub-authors">Deng, T., Ouyang, S.S., Chen, X.Y., <strong>He, G.W.</strong>, ..., Wang, T.J.</p>
+                        <p class="pub-journal"><em>Atmospheric Environment</em>, 2025, 352: 121207</p>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3>2006～2020年粤港澳大湾区气溶胶和臭氧垂直分布及复合污染特征</h3>
+                        <p class="pub-authors">王庆, 邓涛, 吴兑, <strong>何国文</strong>, 张雪, 欧阳珊珊, 陶丽萍, 张泽彪, 吴晟, 周振</p>
+                        <p class="pub-journal"><em>中国环境科学</em>, 2024, 44(11): 5934-5949</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-more">
+                <p>更多合作论文请访问 → <a href="https://www.researchgate.net/profile/Guowen-He" target="_blank"><i class="fab fa-researchgate"></i> ResearchGate 个人主页</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 学术交流 -->
+    <section id="conferences" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">学术交流</h2>
+            <div class="conferences-grid">
+                <div class="conference-card">
+                    <img src="images/2023AOGS.png" alt="2023 AOGS" class="conference-img">
+                    <div class="conference-info">
+                        <h4>2023 AOGS</h4>
+                        <p>亚洲大洋洲地球科学学会年会</p>
+                    </div>
+                </div>
+                <div class="conference-card">
+                    <img src="images/2023环境化学大会.jpg" alt="2023环境化学大会" class="conference-img">
+                    <div class="conference-info">
+                        <h4>2023 环境化学大会</h4>
+                        <p>全国环境化学学术研讨会</p>
+                    </div>
+                </div>
+                <div class="conference-card">
+                    <img src="images/2023臭氧专委会.jpg" alt="2023臭氧专委会" class="conference-img">
+                    <div class="conference-info">
+                        <h4>2023 臭氧专委会</h4>
+                        <p>中国环境科学学会臭氧专委会</p>
+                    </div>
+                </div>
+                <div class="conference-card">
+                    <img src="images/2024港科大.jpg" alt="2024港科大" class="conference-img">
+                    <div class="conference-info">
+                        <h4>2024 港科大</h4>
+                        <p>香港科技大学学术交流</p>
+                    </div>
+                </div>
+                <div class="conference-card">
+                    <img src="images/2025中期.jpg" alt="2025中期" class="conference-img">
+                    <div class="conference-info">
+                        <h4>2025 中期汇报</h4>
+                        <p>课题中期进展汇报</p>
+                    </div>
+                </div>
+                <div class="conference-card">
+                    <img src="images/2025未来地球.jpg" alt="2025未来地球" class="conference-img">
+                    <div class="conference-info">
+                        <h4>2025 未来地球</h4>
+                        <p>未来地球学术研讨会</p>
+                    </div>
+                </div>
+                <div class="conference-card">
+                    <img src="images/2026兰州臭氧专委会.jpg" alt="2026兰州臭氧专委会" class="conference-img">
+                    <div class="conference-info">
+                        <h4>2026 兰州臭氧专委会</h4>
+                        <p>中国环境科学学会臭氧专委会</p>
+                    </div>
+                </div>
+                <div class="conference-card">
+                    <img src="images/2026广州青年地学论坛.jpg" alt="2026广州青年地学论坛" class="conference-img">
+                    <div class="conference-info">
+                        <h4>2026 广州青年地学论坛</h4>
+                        <p>青年地球科学论坛</p>
+                    </div>
+                </div>
+                <div class="conference-card conference-card-award">
+                    <object data="images/2026臭氧专委会获奖证书.pdf" type="application/pdf" class="award-pdf-viewer">
+                        <img src="images/2026臭氧专委会获奖证书.pdf" alt="2026臭氧专委会获奖证书" class="conference-img">
+                    </object>
+                    <div class="conference-info">
+                        <h4>🏆 2026 获奖证书</h4>
+                        <p>中国环境科学学会臭氧专委会优秀报告</p>
+                        <a href="images/2026臭氧专委会获奖证书.pdf" target="_blank" class="award-link"><i class="fas fa-file-pdf"></i> 查看完整证书</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">联系方式</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>邮箱</h3>
+                    <a href="mailto:hegw8@mail.sysu.edu.cn">hegw8@mail.sysu.edu.cn</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>电话</h3>
+                    <p>13535234576</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>办公地址</h3>
+                    <p>广东省珠海市唐家湾<br>中山大学珠海校区海琴二号<br>邮编: 519082</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-researchgate"></i>
+                    </div>
+                    <h3>ResearchGate</h3>
+                    <a href="https://www.researchgate.net/profile/Guowen-He" target="_blank">个人主页</a>
+                </div>
+            </div>
+            <div class="contact-message">
+                <p>欢迎对大气化学、对流层臭氧、生物质燃烧影响等研究方向感兴趣的同学和同仁与我联系交流！</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 何国文 | 中山大学大气科学学院</p>
+            <p class="footer-note">Last updated: July 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
