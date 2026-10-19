@@ -218,7 +218,7 @@ a:hover {
 
 /* ==================== 通用板块 ==================== */
 .section {
-    padding: 44px 0;
+    padding: 30px 0;
 }
 
 .section-alt {
@@ -331,6 +331,10 @@ a:hover {
 .timeline-item {
     position: relative;
     margin-bottom: 16px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
 }
 
 .timeline-dot {
@@ -512,7 +516,7 @@ a:hover {
 
 .project-details {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 12px;
     margin-bottom: 24px;
     padding: 16px;
@@ -687,7 +691,7 @@ a:hover {
 /* ==================== 学术交流 ==================== */
 .conferences-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
 }
 
@@ -762,12 +766,18 @@ a:hover {
 }
 
 /* ==================== 更多论文 ==================== */
-.conferences-etc {
-    text-align: center;
+.conference-more {
+    background: #fff;
+    border: 2px dashed var(--accent-color);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
     color: var(--text-lighter);
-    font-size: 1.05rem;
-    font-weight: 600;
-    letter-spacing: 2px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 4px;
 }
 
 .pub-more {
@@ -1007,7 +1017,7 @@ a:hover {
     }
 
     .section {
-        padding: 60px 0;
+        padding: 40px 0;
     }
 
     .publication-item {
